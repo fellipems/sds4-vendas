@@ -4,9 +4,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'assets/css/styles.css';
 
-ReactDOM.render(
+ReactDOM.render(  // um componente é um objeto do javascript(função)
   <React.StrictMode>
-    <App />
+    <App /> {/* a tag app é o nosso(um dos) componente*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
